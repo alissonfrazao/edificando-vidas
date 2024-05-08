@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: #b87474;
+  background-color: #bb4444;
 }
 nav ul {
   margin: 0;
@@ -66,7 +66,7 @@ nav ul li a:hover::after {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #000000;
+      background-color: #ffffff;
     }
     
     li {
@@ -75,7 +75,7 @@ nav ul li a:hover::after {
     
     li a {
       display: block;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align: center;
       padding: 5px 10px;
       text-decoration: none;
@@ -83,5 +83,7 @@ nav ul li a:hover::after {
     
     /* Change the link color to #111 (black) on hover */
     li a:hover {
-      background-color: #111;
+      background-color: #a30f0f;
+      color: white;
+      
     }
