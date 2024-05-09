@@ -1,32 +1,31 @@
   body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; 
 }
 
-nav {
-  background-color: #bb4444;
+header {
+  display: flex;
+  width: 100%;
+  
 }
-nav ul {
+
+
+ul { 
+  color: #140101;
+  text-decoration: none;
+  position: relative;
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
-}
-
-nav ul li {
+  align-items: center;
   margin-right: 20px;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-}
 
-nav ul li a::after {
+header ul li a::after {
   content: '';
-  display: block;
   position: absolute;
   bottom: -3px;
   left: 0;
@@ -57,17 +56,20 @@ nav ul li a:hover::after {
   }
   
   a {
-    display: inline-block;
+    
     padding: 10px 
 
-  }
+    }
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #ffffff;
-    }
+      display: flex; 
+      align-items: center;
+    } 
+     
     
     li {
       float: left;
@@ -87,3 +89,5 @@ nav ul li a:hover::after {
       color: white;
       
     }
+
+    
